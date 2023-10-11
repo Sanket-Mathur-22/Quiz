@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Light - #C9EBEC
+Deep - #46B8B9 */
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+  width: 100%;
+  height: 100vh;
+  background-color: #C9EBEC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#category-div {
+  width: 40%;
+  height: 70vh;
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+#category-div div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#category-div div:nth-child(1) {
+  height: 35%;
+}
+
+#category-div div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 800;
+  padding: 0.5em;
+}
+
+#dropdown,
+#play-btn {
+  width: 80%;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #c0fcfa;
+  border-color: #c0fcfa;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  outline: none;
+}
+
+option {
+  background-color: white;
+}
+
+#play-btn {
+  background-color: white;
+  border: none;
+}
+
+#play-btn:hover{
+  transition: 0.3s;
+  transform: scale(1.05);
+}
+
+#reset-btn:hover {
+  transition: 0.3s;
+  transform: scale(1.05);
+}
+
+@media (max-width: 930px) {
+  #category-div{
+    width: 80%;
+  }
+}
+
+#reset-btn {
+  width: 80%;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #ffeecc;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 0px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* #answer-div p:nth-child(1) { */
+  /* margin-top: 30px; */
+/* } */
+
+
+#answer-div p {
+  
+  background-color: #faf9f562;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 8px;
+  width: 80%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#score-div{
+  padding: 30px;
+}
+
+#answer-div p:hover {
+  background-color: #C9EBEC;
+  transition: 0.3s;
+  transform: scale(1.05);
+}
+
+#traverse-div {
+  margin-top: -20px;
+  gap: 40px;
+  padding: 20px;
+}
+
+#traverse-div button {
+  padding: 10px;
+  width: 50%;
+  border-radius: 5px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#traverse-div button:hover {
+  transition: 0.3s;
+  transform: scale(1.05);
+}

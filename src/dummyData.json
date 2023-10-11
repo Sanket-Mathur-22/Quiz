@@ -1,0 +1,77 @@
+{
+    "status": "success",
+    "data": {
+        "q_1": {
+            "q": "How much sleep do you get regularly?",
+            "word": "Very Dry",
+            "type": "mcq",
+            "options": {
+                "a": {
+                    "word": "Upto 3g",
+                    "desc": ""
+                },
+                "b": {
+                    "word": "3 to 6h",
+                    "desc": ""
+                },
+                "c": {
+                    "word": "7-8h",
+                    "desc": ""
+                },
+                "d": {
+                    "word": "More than 8",
+                    "desc": ""
+                }
+            },
+            "ans": "d"
+        },
+        "q_2": {
+            "q": "Do you feel stressed?",
+            "word": "Very Dry",
+            "type": "mcq",
+            "options": {
+                "a": {
+                    "word": "Regularly",
+                    "desc": ""
+                },
+                "b": {
+                    "word": "Often",
+                    "desc": ""
+                },
+                "c": {
+                    "word": "No",
+                    "desc": ""
+                },
+                "d": {
+                    "word": "Rarely",
+                    "desc": ""
+                }
+            },
+            "ans": "d"
+        },
+        "q_3": {
+            "q": "How healthy and balanced is your diet ?",
+            "word": "Very Dry",
+            "type": "mcq",
+            "options": {
+                "a": {
+                    "word": "Very balanced with healthy protein,  carbs, fat, fiber etc",
+                    "desc": ""
+                },
+                "b": {
+                    "word": "Includes occasional junk foods",
+                    "desc": ""
+                },
+                "c": {
+                    "word": "Very unbalanced and includes frequent fast food",
+                    "desc": ""
+                },
+                "d": {
+                    "word": "Eats homemade food but not sure about macro and micronutrients",
+                    "desc": ""
+                }
+            },
+            "ans": "d"
+        }
+    }
+}
